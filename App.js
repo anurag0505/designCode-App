@@ -5,10 +5,12 @@ import Card from "./components/Card";
 import { Ionicons } from "@expo/vector-icons";
 import { LogoNew } from "./components/LogoNew";
 import { Course } from "./components/Course";
+import Menu from "./components/Menu";
 
 export default function App() {
 	return (
 		<Container>
+			<Menu />
 			<SafeAreaView>
 				<ScrollView>
 					<TitleBar>
